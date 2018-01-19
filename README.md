@@ -36,7 +36,7 @@ module.exports = {
 
 第二步：本地服务的启动
 在本工程路径下，启动本地测试服务: npm start 或者 npm run dev
-```
+```js
 >npm start
 ```
 - 服务默认启动在9001端口，请在浏览器地址栏输入http://localhost:9001/进行测试。
@@ -77,6 +77,7 @@ module.exports = {
 第二步 动态添加随机数版本号
 >1).<font color="red">注意：在使用ng-lazy-load引入脚本时，要放在数组方括号内,例如
 </font>
+
 ```js
 <div ng-lazy-load='["htmls/BankOpenLicense/BankOpenLicense.js?v=c8R8kTEJd71516165902079"]' >
 ```
@@ -97,7 +98,7 @@ module.exports = {
 执行命令：> npm run minify
 
 - 自动压缩命令说明： > npm run minify
- > 工程资源合并压缩,输出到/build/sample/目录, 生产部署版本通过http://localhost:9001/sample/index.html可测试访问。
+ > 工程资源合并压缩,输出到/build/sample/目录, 生产部署版本通过http://localhost:9001/build/sample/index.html可测试访问。
 - 【可选】自动合并命令说明: npm run concat 
  > 工程资源合并,输出到/build/concat/目录, 该任务只做 js 和 css 文件合并，不进行压缩,预生产模式测试版本
 ##
