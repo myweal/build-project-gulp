@@ -18,6 +18,11 @@ myApp.config(["$stateProvider", "$controllerProvider", "$urlRouterProvider", "$c
                 name: 'about',
                 url: '/about',
                 template: '<h3>Its the UI-Router hello world app!</h3>'
+            })
+            .state({
+                name: 'welcome',
+                url: '/welcome',
+                templateUrl: 'htmls/welcome/welcome.html'
             });
         //是否使用全局controller
         $controllerProvider.allowGlobals();
