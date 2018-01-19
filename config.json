@@ -1,0 +1,11 @@
+{
+  "addVersion": true,
+  "root": "static",
+  "index": "static/index.handlebars",
+  "htmls": "static/htmls",
+  "route": "static/lib/angular-config-router.js",
+  "cssPath": "static/lib/config.preload.js",
+  "cssApart": "bootstrap.css",
+  "lastVersion": "",
+  "other": ""
+}

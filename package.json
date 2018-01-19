@@ -1,0 +1,47 @@
+{
+  "name": "build-project-gulp",
+  "version": "1.0.0",
+  "description": "build for project",
+  "homepage": "",
+  "main": "",
+  "repository":
+  { "type" : "git"
+  , "url" : "https://github.com/myweal/build-project-gulp.git"
+  },
+  "scripts": {
+    "start": "gulp dev",
+    "dev": "gulp dev",
+    "dev:build": "gulp dev --type=devbuild",
+    "dev:dist": "gulp dev --type=devdist",
+    "concat": "gulp cat",
+    "minify": "gulp min",
+    "csslint": "gulp csslint",
+    "version": "gulp version",
+    "clean-version": "gulp clean-version"
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "event-stream": "^3.2.2",
+    "express": "^4.7.2",
+    "gulp": "^3.8.10",
+    "gulp-clean-css": "^3.4.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.4.3",
+    "gulp-csslint": "^1.0.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-livereload": "^3.7.0",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-md5": "^0.1.2",
+    "gulp-nodemon": "^1.0.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0",
+    "http-proxy-middleware": "^0.17.4",
+    "serve-index": "^1.9.0"
+  },
+  "author": {
+    "name": "myweal",
+    "email": "",
+    "url": ""
+  },
+  "license": "MIT"
+}
