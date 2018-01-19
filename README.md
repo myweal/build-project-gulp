@@ -75,11 +75,11 @@ module.exports = {
 }
 ```
 第二步 动态添加随机数版本号
->1).<font color="red">注意：在使用ng-lazy-load引入脚本时，要放在数组方括号内,例如
+>1).<font color="red">注意：在使用oc-lazy-load引入脚本时，要放在数组方括号内,例如
 </font>
 
 ```js
-<div ng-lazy-load='["htmls/BankOpenLicense/BankOpenLicense.js?v=c8R8kTEJd71516165902079"]' >
+<div oc-lazy-load='["htmls/Test/Test.js"]' >
 ```
 
 

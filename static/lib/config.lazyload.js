@@ -1,6 +1,6 @@
 /**
  * 配置插件懒加载资源路径[files字段]、懒加挂插件模块名称[name字段]。
- * 使用字符串进行调用，如ng-lazy-load="['ui.grid']"
+ * 使用字符串进行调用，如oc-lazy-load="['ui.grid']"
  */
 var $vLazyLoad_Modules = [{
     name: 'ui.grid',
@@ -9,7 +9,7 @@ var $vLazyLoad_Modules = [{
 
 /**
  * 仅仅配置插件懒加载资源路径，非模块，name随意。
- * 使用变量进行调用，如ng-lazy-load="[_iscroll]"
+ * 使用变量进行调用，如oc-lazy-load="[_iscroll]"
  */
 var $vLazyLoad_NoModules = {
     _iscroll: ['lib/plugins/iscroll/iscroll.min.js', 'lib/plugins/iscroll/iscroll.css'],
